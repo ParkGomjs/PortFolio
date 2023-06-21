@@ -37,3 +37,4 @@ Modify pages content in `src/content_option.js`.
 If you like this portfolio template don't forget give it a ⭐
 
 위 프로젝트는 위의 분의 포트폴리오를 활용하여 다시 만들어 연습한 것임을 밝힙니다!
+연습!
