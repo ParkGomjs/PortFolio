@@ -1,166 +1,173 @@
-const logotext = "JOHN";
+const logotext = "메인";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+  title: "엘든링",
+  description: "ㅇㅇㅇ",
 };
 
 const introdata = {
-    title: "I’m John Doe",
-    animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
-    },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+  title: "엘든링",
+  animated: {
+    first: "도전해라",
+    second: "그 힘이야말로",
+    third: "왕인 까닭이다",
+  },
+  description: "추방 당한 자여....야망의 불꽃에 불타는 자여",
+  main_image: "image/main.webp",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+  title: "게임의 난이도",
+  aboutme:
+    "끝 없이 도전해라..모든 것은 처음부터 잘못되었을지도 모른다....그렇다고 멈춰있을 순 없다.   추방당한자여.....그 힘이야말로 왕인 까닭이다.",
 };
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
-    },
+const worktimeline = [
+  {
+    jobtitle: "The game Awardes",
+    where: "GAME OF THE YEAR",
+    date: "2022",
+  },
+  {
+    jobtitle: "Golden Joystick Awards",
+    where: "Ultimate Game of the Year Award",
+    date: "2022",
+  },
+  {
+    jobtitle: "IGN",
+    where: "GAME OF THE YEAR",
+    date: "2022",
+  },
 ];
 
-const skills = [{
-        name: "Python",
-        value: 90,
-    },
-    {
-        name: "Djano",
-        value: 85,
-    },
-    {
-        name: "Javascript",
-        value: 80,
-    },
-    {
-        name: "React",
-        value: 60,
-    },
-    {
-        name: "Jquery",
-        value: 85,
-    },
+const skills = [
+  {
+    name: "자유도",
+    value: 90,
+  },
+  {
+    name: "난이도",
+    value: 100,
+  },
+  {
+    name: "만족도",
+    value: 85,
+  },
+  {
+    name: "트리가드를 잡은 유저의 분포",
+    value: 30,
+  },
+  {
+    name: "엔딩을 본 유저의 분포",
+    value: 55,
+  },
 ];
 
-const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
+const services = [
+  {
+    title: "시험하고",
+    description: "다른 게임과는 다른 난이도, 하지만 결코 불가능하지 않은.",
+  },
+  {
+    title: "선택하며",
+    description: "재미를 찾는 것도 선택, 정해진 길로 가는것도 당신의 선택",
+  },
+  {
+    title: "끝에 다다르라",
+    description: "당신의 방식대로 최종을 맞이해라.",
+  },
 ];
+// 이미지 링크 가져오는 곳
+const dataportfolio = [
+  {
+    img: "image/treeguard.webp",
+    description: "트리가드",
+    link: "https://www.eldenring.jp/",
+  },
+  {
+    img: "image/Margit.webp",
+    description: "끔찍한 흉조 멀키트",
+    link: "https://www.eldenring.jp/",
+  },
+  {
+    img: "image/Morgott.webp",
+    description: "축복의 왕 모르고트",
+    link: "https://www.eldenring.jp/",
+  },
+  {
+    img: "image/Radan.webp",
+    description: "별 부수는 라단",
+    link: "https://www.eldenring.jp/",
+  },
+  {
+    img: "image/Malenia.webp",
+    description: "부패의 여신 말레니아",
+    link: "https://www.eldenring.jp/",
+  },
+  {
+    img: "image/Mohg.webp",
+    description: "피의 군주 모그",
+    link: "https://www.eldenring.jp/",
+  },
 
-const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+  {
+    img: "image/Maliketh.webp",
+    description: "흑검 말리케스",
+    link: "https://www.eldenring.jp/",
+  },
+  {
+    img: "image/Godfrey.webp",
+    description: "첫 왕 고드프리",
+    link: "https://www.eldenring.jp/",
+  },
+  {
+    img: "image/Rennala.webp",
+    description: "만월의 여왕 레날라",
+    link: "https://www.eldenring.jp/",
+  },
+  {
+    img: "image/Radagon.webp",
+    description: "황금률 라다곤",
+    link: "https://www.eldenring.jp/",
+  },
+  {
+    img: "image/Godrick.webp",
+    description: "접목의 고드릭",
+    link: "https://www.eldenring.jp/",
+  },
+  {
+    img: "image/Rykard.webp",
+    description: "모독의 군주 라이커드",
+    link: "https://www.eldenring.jp/",
+  },
 ];
-
+//
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
-    // creat an emailjs.com account 
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+  YOUR_EMAIL: "name@domain.com",
+  YOUR_FONE: "(010)1234-5678",
+  description:
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+  // creat an emailjs.com account
+  // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
+  YOUR_SERVICE_ID: "service_id",
+  YOUR_TEMPLATE_ID: "template_id",
+  YOUR_USER_ID: "user_id",
 };
-
+// 소설 관리 링크
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+  github: "https://github.com",
+  facebook: "https://facebook.com",
+  linkedin: "https://linkedin.com",
+  twitter: "https://twitter.com",
 };
+// 컴포넌트를 내보내는 export를 활용하여 쓰고 있다.
 export {
-    meta,
-    dataabout,
-    dataportfolio,
-    worktimeline,
-    skills,
-    services,
-    introdata,
-    contactConfig,
-    socialprofils,
-    logotext,
+  meta,
+  dataabout,
+  dataportfolio,
+  worktimeline,
+  skills,
+  services,
+  introdata,
+  contactConfig,
+  socialprofils,
+  logotext,
 };
